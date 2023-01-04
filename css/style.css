@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+:root {
+    --p1: #294c71;
+    --p2: #8e052b;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main.principal, .cabecalho .dados-cabecalho {
+    max-width: 750px;
+    min-width: 650px;
+    padding: 10px;
+    margin: auto;
+
+}
+
+.cabecalho {
+    height: 233px;
+    min-width: 750px;
+    background: var(--p1) url("../img/fundo.png") repeat-x;
+}
+
+.dados-cabecalho {
+    
+    background: url("../img/detalhe-topo.png") no-repeat center right;
+}
+
+.cabecalho .dados-cabecalho .menu {
+    max-width: 607.35px;
+    height: 38px;
+    background: var(--p2);
+    margin-top: 30px;
+}
+
+.cabecalho .dados-cabecalho .menu a {
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    float: left;
+    background: url("../img/divisor.png") repeat-y;
+
+}
+.cabecalho .dados-cabecalho .menu a.primary {
+    background: none;
+}
+.cabecalho .dados-cabecalho .menu a:hover {
+    background: #993854;
+}
+
+main.principal {
+
+}
+main.principal div {
+margin-bottom: 20px;
+}
+div.left {
+    max-width: 22%;
+    float: left;
+    
+}
+div.left input {
+    max-width: 90%;
+}
+button {
+    margin-top: 5px;
+    padding: 5px;
+    border: none;
+    color:white;
+    background-color: var(--p2);
+}
+section.center {
+    max-width: 40%;
+    margin: 0 9px;
+    float: left;
+}
+aside.right  {
+    max-width: 35%;
+    float: right;
+}
+
+aside.right .galeria div, section.center .galeria div{
+    max-width: 33%;
+    margin-right: 5px;
+    float: left;
+}
+aside.right .galeria p, section.center .galeria p {
+    max-width: 60%;
+    text-align: justify;
+   float: left; 
+}
+aside.right .galeria .clear, section.center .galeria .clear{
+   clear: both;
+}
+
+main.principal img {
+    max-width: 100%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: white;
+    background: var(--p1);
+}
+h6{
+    background: var(--p2);
+    padding: 6px;
+    font-size: 12pt;
+    display: inline-block;
+    margin-bottom: 9px;
+
+}
+.principal a{
+color: var(--p2);
+display: block;
+margin-bottom: 10px;
+}
+footer.rodape {
+clear: both;
+background: var(--p1);
+text-align: center;
+color: white;
+}
+
+
